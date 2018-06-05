@@ -1,0 +1,31 @@
+{
+  "name": "jm-passport",
+  "version": "2.0.0",
+  "description": "general passport service",
+  "main": "./lib/index",
+  "scripts": {
+    "start": "node node_modules/jm-server/bin/jm-server",
+    "cluster": "node node_modules/jm-server/bin/jm-server --cluster"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jm-root/jm-passport.git"
+  },
+  "keywords": [
+    "javascript",
+    "jm-passport"
+  ],
+  "author": {
+    "name": "Jeff YU"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jm-root/jm-passport/issues"
+  },
+  "homepage": "https://github.com/jm-root/jm-passport",
+  "dependencies": {
+    "jm-server": "^1.0.3",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}
